@@ -1,0 +1,56 @@
+.Brand{color: blueviolet; }
+.animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+0% {
+    transform: translateY(10px);
+}
+100% {
+    transform: translateY(-10px);
+}
+}
+
+@keyframes up-down{
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+    }
+    
+    
+    .keywords{
+        font-size: 30px;
+    }
+    
+    .Keywords_down{
+        font-size: 20px;
+    }
+
+    @media (max-width : 572px) {
+        .keywords{
+            font-size: 15px;
+        }
+        
+        .Keywords_down{
+            font-size: 10px;
+        }
+       
+    }
+    .footer{
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        padding-top: 0em;
+   
+
+    }
+    .copyright{
+        line-height:30px;
+        margin: 0;
+    }
+ 
+    
